@@ -4,7 +4,6 @@ function foo(n) {
   return s === s.split("").reverse().join("");
 }
 
-// Testlar
 console.log(foo(1231)); // false
 console.log(foo(12521)); // true
 console.log(foo(3)); // true
@@ -14,7 +13,6 @@ function foo(...args) {
   return args.reduce((a, b) => a + b, 0);
 }
 
-// Testlar
 console.log(foo(1, 3)); // 4
 console.log(foo(10, 20, 30, 40)); // 100
 
@@ -25,7 +23,6 @@ function foo(obj) {
   }, 0);
 }
 
-// Testlar
 console.log(foo({ a: 5, b: 6 })); // 11
 console.log(foo({ a: 5, b: "6", c: true })); // 11
 
@@ -35,7 +32,6 @@ function foo(n) {
   return Number([...new Set(str)].join(""));
 }
 
-// Testlar
 console.log(foo(1231)); // 123
 console.log(foo(112233344444)); // 1234
 
@@ -44,6 +40,5 @@ function foo(s) {
   return s.replace(/\?+$/, "");
 }
 
-// Testlar
 console.log(foo("salom??")); // "salom"
 console.log(foo("sa?lom?")); // "sa?lom"
