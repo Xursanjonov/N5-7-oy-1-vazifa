@@ -35,7 +35,7 @@ function foo(n) {
 console.log(foo(1231)); // 123
 console.log(foo(112233344444)); // 1234
 
-// 5-problem
+// 5-masalaga men tushunganim shu belgilar bo`lsa ochirsin deb tushungandim 
 function foo(s) {
   return s.replace(/\?+$/, "");
 }
